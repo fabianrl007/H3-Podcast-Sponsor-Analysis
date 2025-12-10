@@ -1,0 +1,15 @@
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints (the blue folders that appear)
+.ipynb_checkpoints/
+
+# (Optional) Usually we ignore data, but for a Portfolio, 
+# since your file is small (200 rows), we will ALLOW it so 
+# recruiters can run your code immediately.
+# data/
